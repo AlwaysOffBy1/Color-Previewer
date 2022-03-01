@@ -1,0 +1,75 @@
+﻿<Window x:Class="Color_Preview_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Color_Preview_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="336.4" Width="558.2">
+    <Grid>
+        <Label x:Name="BBar" Content="" HorizontalAlignment="Left" Height="25" Margin="50,235,0,0" VerticalAlignment="Top" Width="0" BorderBrush="Black" BorderThickness="0" RenderTransformOrigin="0.5,0.5" Background="Blue">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <Label x:Name="RBar" Content="" HorizontalAlignment="Left" Height="25" Margin="10,235,0,0" VerticalAlignment="Top" Width="0" BorderBrush="Black" BorderThickness="0" RenderTransformOrigin="0.5,0.5" Background="Red">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+        <Label x:Name="rrg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="65,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rrb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="120,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rrr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="10,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rgg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="65,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rgb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="120,65,0,0" BorderBrush="Black" BorderThickness="2"/>
+        <Label x:Name="rgr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="10,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rbg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="65,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rbb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="120,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="rbr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="10,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="grg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="245,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="grb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="300,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="grr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="190,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="ggg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="245,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="ggb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="300,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="ggr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="190,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="gbg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="245,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="gbb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="300,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="gbr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="190,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="brg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="425,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="brb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="480,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="brr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="370,10,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="bgg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="425,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="bgb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="480,65,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="bgr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="370,65,0,0" BorderBrush="Black" BorderThickness="2"/>
+        <Label x:Name="bbg" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="425,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="bbb" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="480,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <Label x:Name="bbr" Content="" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="370,120,0,0" BorderBrush="Black" BorderThickness="1"/>
+        <TextBox x:Name="RBox" HorizontalAlignment="Left" Height="25" Margin="65,188,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" GotFocus="RBox_GotFocus" TextChanged="TextChanged"/>
+        <TextBox x:Name="GBox" HorizontalAlignment="Left" Height="25" Margin="245,189,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" GotFocus="GBox_GotFocus" TextChanged="TextChanged"/>
+        <TextBox x:Name="BBox" HorizontalAlignment="Left" Height="25" Margin="430,190,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="50" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" GotFocus="BBox_GotFocus" TextChanged="TextChanged"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="30" Margin="10,266,0,0" VerticalAlignment="Top" Width="525" Maximum="255" TickFrequency="55" ValueChanged="slider_ValueChanged"/>
+        <Label x:Name="GBar" Content="" HorizontalAlignment="Left" Height="25" Margin="30,235,0,0" VerticalAlignment="Top" Width="0" BorderBrush="Black" BorderThickness="0" RenderTransformOrigin="0.5,0.5" Background="Lime">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>
